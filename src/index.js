@@ -10,5 +10,5 @@ module.exports = function solveEquation(equation) {
     (Math.round((int2 * - 1 - Math.sqrt(eq)) / (int1 * 2)))
   ];
   
-  return members.sort((a, b) => { a - b });
+  return members.sort((a, b) => { return a - b });
 }
